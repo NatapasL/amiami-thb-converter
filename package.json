@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun build ./src/main.ts --outfile ./dist/content.js --watch"
+    "dev": "bun build ./src/main.ts --outfile ./dist/content.js --watch",
+    "build": "bun build ./src/main.ts --outfile ./dist/content.js"
   },
   "devDependencies": {
     "@types/bun": "latest",
