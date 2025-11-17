@@ -48,6 +48,10 @@ bun run dev
 ```
 .
 ├── manifest.json      # Extension configuration
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
 ├── package.json       # Scripts and dependencies
 ├── src/
 │   └── main.ts        # Source logic (TypeScript)
