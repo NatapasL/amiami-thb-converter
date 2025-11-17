@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AmiAmi THB Converter",
+  "version": "1.0",
+  "description": "Displays THB price next to JPY on AmiAmi.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.amiami.com/*"],
+      "js": ["dist/content.js"]
+    }
+  ]
+}
