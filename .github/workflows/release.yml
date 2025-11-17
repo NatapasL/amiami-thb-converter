@@ -28,7 +28,7 @@ jobs:
         run: bun run build
 
       - name: Zip Extension
-        run: zip -r amiami-thb-converter.zip manifest.json dist/
+        run: zip -r amiami-thb-converter.zip manifest.json dist/ icons/
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
